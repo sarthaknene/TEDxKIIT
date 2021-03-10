@@ -1,0 +1,140 @@
+#address{
+    text-align: justify;
+    padding-top: 2px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.btn{
+    background-color: black;
+    padding-right: 65px;
+    padding-left: 65px;
+}
+.card-title{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    padding-left: 70px;
+    padding-top: 70px;
+    display:block;
+}
+@media (max-width: 1000px){
+
+    .card-title{
+        font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 900;
+   
+        padding-left:0%;
+    }
+}
+#footer-text{
+    padding-top: 2px;
+    padding-bottom: 25px;
+    margin-bottom: 0%;
+}
+
+h2{
+
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h4{
+    font-family: 'Noto Sans KR', sans-serif;
+        font-weight: 900;
+        padding-left: 62px;
+        padding-bottom: 2px;
+}
+h5{
+    text-align: center;
+   
+}
+
+hr{
+    margin: 20px auto 50px auto;
+    width: 16%;
+    border-top: solid ;
+    border-color:red;
+    border-width: 3px;
+}
+#mail{
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    
+    padding-left: 30px;
+}
+.navbar-collapse{
+    padding-left: 40px;
+}
+.nav-item{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    text-decoration-color:  white;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.marquee{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+.padder{
+    
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+       font-weight: 600;
+   }
+
+ p1{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 900;
+    padding-left: 65px;
+   }
+p{
+    text-align: justify;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    padding-left: 65px;
+    padding-right: 65px;
+    padding-top: 25px;
+
+}
+#phone-no{
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.speakers{
+    background-color: black;
+    margin-top: 80px;
+}
+
+ .col-md-6{
+   padding-left: 60px;
+   padding-right: 60px;
+ }
+ .col-md-4{
+     padding-left: 80px;
+ }
+ .map-container{
+    overflow:hidden;
+    padding-bottom:20%;
+    position:relative;
+    height:0;
+    }
+.map-container iframe{
+   padding-left: 50px;
+   padding-right:50px;
+    height:70%;
+    width:100%;
+    position:absolute;
+    }
